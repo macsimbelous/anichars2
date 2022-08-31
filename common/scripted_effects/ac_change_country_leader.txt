@@ -1,0 +1,166 @@
+ac_change_country_leader_effect = {
+	retire_country_leader = yes
+	random_list = {
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_aino
+			}
+			set_country_leader_name = {
+				name = ac_aino
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_alisa_illinichina_amiella
+			}
+			set_country_leader_name = {
+				name = ac_alisa_illinichina_amiella
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_anastasia_romanova
+			}
+			set_country_leader_name = {
+				name = ac_anastasia_romanova
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_asuka_langley_souryuu
+			}
+			set_country_leader_name = {
+				name = ac_asuka_langley_souryuu
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_eruza_guranhirute
+			}
+			set_country_leader_name = {
+				name = ac_eruza_guranhirute
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_heine
+			}
+			set_country_leader_name = {
+				name = ac_heine
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_homare_nao
+			}
+			set_country_leader_name = {
+				name = ac_homare_nao
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_i-410
+			}
+			set_country_leader_name = {
+				name = ac_i-410
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_kaname_chidori
+			}
+			set_country_leader_name = {
+				name = ac_kaname_chidori
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_kos-mos
+			}
+			set_country_leader_name = {
+				name = ac_kos-mos
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_lightning
+			}
+			set_country_leader_name = {
+				name = ac_lightning
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_marblehead_azur_lane
+			}
+			set_country_leader_name = {
+				name = ac_marblehead_azur_lane
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_meroune_lorelei
+			}
+			set_country_leader_name = {
+				name = ac_meroune_lorelei
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_mikumo_guynemer
+			}
+			set_country_leader_name = {
+				name = ac_mikumo_guynemer
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_natasha_cioara
+			}
+			set_country_leader_name = {
+				name = ac_natasha_cioara
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_saki_rukino
+			}
+			set_country_leader_name = {
+				name = ac_saki_rukino
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_shiki
+			}
+			set_country_leader_name = {
+				name = ac_shiki
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_souji_mitsuka
+			}
+			set_country_leader_name = {
+				name = ac_souji_mitsuka
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_takao_arp
+			}
+			set_country_leader_name = {
+				name = ac_takao_arp
+			}
+		}
+		1 = {
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_takumi_musashino
+			}
+			set_country_leader_name = {
+				name = ac_takumi_musashino
+			}
+		}
+	}
+	add_country_leader_trait = ac_governor-general
+}

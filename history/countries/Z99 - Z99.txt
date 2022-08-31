@@ -1,0 +1,42 @@
+﻿recruit_character = ac_aino
+recruit_character = ac_alisa_illinichina_amiella
+recruit_character = ac_anastasia_romanova
+recruit_character = ac_asuka_langley_souryuu
+recruit_character = ac_eruza_guranhirute
+recruit_character = ac_heine
+recruit_character = ac_homare_nao
+recruit_character = ac_i-410
+recruit_character = ac_kaname_chidori
+recruit_character = ac_kos-mos
+recruit_character = ac_lightning
+recruit_character = ac_marblehead_azur_lane
+recruit_character = ac_meroune_lorelei
+recruit_character = ac_mikumo_guynemer
+recruit_character = ac_natasha_cioara
+recruit_character = ac_saki_rukino
+recruit_character = ac_shiki
+recruit_character = ac_souji_mitsuka
+recruit_character = ac_takao_arp
+recruit_character = ac_takumi_musashino
+
+#Flags
+ac_aino = { set_character_flag = ac_char_flag }
+ac_alisa_illinichina_amiella = { set_character_flag = ac_char_flag }
+ac_anastasia_romanova = { set_character_flag = ac_char_flag }
+ac_asuka_langley_souryuu = { set_character_flag = ac_char_flag }
+ac_eruza_guranhirute = { set_character_flag = ac_char_flag }
+ac_heine = { set_character_flag = ac_char_flag }
+ac_homare_nao = { set_character_flag = ac_char_flag }
+ac_i-410 = { set_character_flag = ac_char_flag }
+ac_kaname_chidori = { set_character_flag = ac_char_flag }
+ac_kos-mos = { set_character_flag = ac_char_flag }
+ac_lightning = { set_character_flag = ac_char_flag }
+ac_marblehead_azur_lane = { set_character_flag = ac_char_flag }
+ac_meroune_lorelei = { set_character_flag = ac_char_flag }
+ac_mikumo_guynemer = { set_character_flag = ac_char_flag }
+ac_natasha_cioara = { set_character_flag = ac_char_flag }
+ac_saki_rukino = { set_character_flag = ac_char_flag }
+ac_shiki = { set_character_flag = ac_char_flag }
+ac_souji_mitsuka = { set_character_flag = ac_char_flag }
+ac_takao_arp = { set_character_flag = ac_char_flag }
+ac_takumi_musashino = { set_character_flag = ac_char_flag }

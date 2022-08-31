@@ -1,0 +1,54 @@
+﻿l_russian:
+#ac_anime_characters_category
+ ac_anime_characters_category:0 "Аниме персонажи"
+ #change_leader
+  ac_change_leader_to_anastasia_romanova:0 "Назначить  §GАнастасию Романову§! лидером"
+  ac_anastasia_romanova_hired_tt:0 "§BАнастасия Романова§!"
+  ac_change_leader_to_alisa_illinichina_amiella:0 "Назначить §GАлиса Ильинична Амелла§! лидером"
+  ac_alisa_illinichina_amiella_hired_tt:0 "§GАлиса Ильинична Амелла§!"
+  ac_change_leader_to_homare_nao:0 "Назначить §GХомаре Нао§! лидером"
+  ac_homare_nao_hired_tt:0 "§GХомаре Нао§!"
+  ac_change_leader_to_takumi_musashino:0 "Назначить §GТакуми Мусасино§! лидером"
+ #recruit
+  ac_recruit_aino:0 "Нанять §GАйно§!"
+  ac_recruit_alisa_illinichina_amiella:0 "Нанять §GАлиса Ильинична Амелла§!"
+  ac_recruit_anastasia_romanova:0 "Нанять §GАнастасия Романова§!"
+  ac_recruit_asuka_langley_souryuu:0 "Нанять §GАска Лэнгли Сорью§!"
+  ac_recruit_eruza_guranhirute:0 "Нанять §GЭльза Гранхирт§!"
+  ac_recruit_heine:0 "Нанять §GХайне§!"
+  ac_recruit_homare_nao:0 "Нанять §GХомаре Нао§!"
+  ac_recruit_i-410:0 "Нанять §GИона§!"
+  ac_recruit_kaname_chidori:0 "Нанять §GКанамэ Тидори§!"
+  ac_recruit_kos-mos:0 "Нанять §GKOS-MOS§!"
+  ac_recruit_lightning:0 "Нанять §GЛайтнинг§!"
+  ac_recruit_marblehead_azur_lane:0 "Нанять §GМарблхэд§!"
+  ac_recruit_meroune_lorelei:0 "Нанять §GМероуна Лорелей§!"
+  ac_recruit_mikumo_guynemer:0 "Нанять §GМикумо Гинемер§!"
+  ac_recruit_natasha_cioara:0 "Нанять §GНаташа Чоара§!"
+  ac_recruit_saki_rukino:0 "Нанять §GСаки Рукино§!"
+  ac_recruit_shiki:0 "Нанять §GШики§!"
+  ac_recruit_souji_mitsuka:0 "Нанять §GСодзи Мицука§!"
+  ac_recruit_takao_arp:0 "Нанять §GТакао§!"
+  ac_recruit_takumi_musashino:0 "Нанять §GТакуми Мусасино§!"
+
+
+#tooltips
+ ac_political_advisor_tt:0 "§YПолитик§!"
+ ac_theorist_tt:0 "§OТеоретик§!"
+ ac_navy_chief_tt:0 "§BГлавком ВМС§!"
+ ac_air_chief_tt:0 "§LГлавком ВВС§!"
+ ac_army_chief_tt:0 "§GГлавком Армии§!"
+ ac_high_command_tt:0 "§YВысшее командование§!"
+ ac_corps_commander_tt:0 "§GГенерал§!"
+ ac_navy_leader_tt:0 "§BАдмирал§!"
+ ac_operative_leader_tt:0 "§RАгент§!"
+ ac_trap_tt:0 "§RАхтунг!§!"
+
+#political_actions
+ ac_retire_leader:0 "§G[ROOT.GetLeader]§! уйдёт в отставку"
+ ac_retire_leader_tt:0 "§YПроизойдут досрочные выборы§!"
+
+#subject
+ ac_subjects_category:0 "Субъекты"
+ ac_change_country_leader:0 "Сменить лидера §Y[From.GetNameDef]§!"
+ ac_change_country_leader_tt:0 "Будет назначен §YГенерал-губернатор§!"

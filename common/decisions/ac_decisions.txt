@@ -1,0 +1,895 @@
+ac_anime_characters_category = {
+	ac_change_leader_to_anastasia_romanova = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_country_flag = ac_anastasia_romanova_hired_country_flag
+			NOT = {
+				has_country_leader = {
+					character = ac_anastasia_romanova
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			has_government = neutrality
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			set_country_leader_name = {
+				name = ac_anastasia_romanova
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_anastasia_romanova
+			}
+			# add_country_leader_role = {
+			# 	character = ac_anastasia_romanova
+			# 	promote_leader = yes
+			# 	country_leader = {
+			# 		ideology = despotism
+			# 		expire = "1965.1.1.1"
+			# 		traits = {
+			# 			ac_anime_tyan
+			# 			ac_peoples_favorite
+			# 			ac_patron_of_science
+			# 			ac_empress
+			# 		}
+			# 	}
+			# }
+			add_country_leader_trait = ac_anime_tyan
+			add_country_leader_trait = ac_peoples_favorite
+			add_country_leader_trait = ac_patron_of_science
+			add_country_leader_trait = ac_empress
+			ac_anastasia_romanova = {
+				set_character_flag = ac_country_leader_flag
+			}
+		}
+	}
+	ac_change_leader_to_alisa_illinichina_amiella = {
+		fire_only_once = yes
+		cost = 100
+		visible = {
+			has_country_flag = ac_alisa_illinichina_amiella_hired_country_flag
+			NOT = {
+				has_country_leader = {
+					character = ac_alisa_illinichina_amiella
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			has_government = communism
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			set_country_leader_name = {
+				name = ac_alisa_illinichina_amiella
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_alisa_illinichina_amiella
+			}
+			add_country_leader_trait = ac_anime_tyan
+			add_country_leader_trait = ac_revolutionary
+			add_country_leader_trait = ac_patron_of_industry
+			add_country_leader_trait = ac_dictator
+			# add_country_leader_role = {
+			# 	character = ac_alisa_illinichina_amiella
+			# 	country_leader = {
+			# 		ideology = stalinism
+			# 		expire = "1959.12.23.1"
+			# 		traits = {
+			# 			ac_anime_tyan
+			# 			ac_revolutionary
+			# 			ac_patron_of_industry
+			# 			ac_dictator
+			# 		}
+			# 	}
+			# 	promote_leader = yes
+			# }
+			ac_alisa_illinichina_amiella = {
+				set_character_flag = ac_country_leader_flag
+			}
+		}
+	}
+	ac_change_leader_to_homare_nao = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_country_flag = ac_homare_nao_hired_country_flag
+			NOT = {
+				has_country_leader = {
+					character = ac_homare_nao
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			has_government = fascism
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			set_country_leader_name = {
+				name = ac_homare_nao
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_homare_nao
+			}
+			add_country_leader_trait = ac_trap
+			add_country_leader_trait = ac_peoples_favorite
+			add_country_leader_trait = ac_patron_of_science
+			add_country_leader_trait = ac_empress
+			# add_country_leader_role = {
+			# 	character = ac_homare_nao
+			# 	country_leader = {
+			# 		ideology = centrism
+			# 		expire = "1959.12.23.1"
+			# 		traits = {
+			# 			ac_trap
+			# 			ac_peoples_favorite
+			# 			ac_patron_of_science
+			# 			ac_empress
+			# 		}
+			# 	}
+			# 	promote_leader = yes
+			# }
+			ac_homare_nao = {
+				set_character_flag = ac_country_leader_flag
+			}
+		}
+	}
+	ac_change_leader_to_takumi_musashino = {
+		fire_only_once = no
+		cost = 100
+		visible = {
+			has_country_flag = ac_takumi_musashino_hired_country_flag
+			NOT = {
+				has_country_leader = {
+					character = ac_takumi_musashino
+					ruling_only = yes
+				}
+			}
+		}
+		available = {
+			has_government = democratic
+		}
+		complete_effect = {
+			retire_country_leader = yes
+			set_country_leader_name = {
+				name = ac_takumi_musashino
+			}
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_ac_takumi_musashino
+			}
+			add_country_leader_trait = ac_trap
+			add_country_leader_trait = ac_revolutionary
+			add_country_leader_trait = ac_patron_of_industry
+			add_country_leader_trait = ac_dictator
+			# add_country_leader_role = {
+			# 	character = ac_takumi_musashino
+			# 	country_leader = {
+			# 		ideology = leninism
+			# 		expire = "1959.12.23.1"
+			# 		traits = {
+			# 			ac_trap
+			# 			ac_revolutionary
+			# 			ac_patron_of_industry
+			# 			ac_dictator
+			# 		}
+			# 	}
+			# 	promote_leader = yes
+			# }
+			ac_takumi_musashino = {
+				set_character_flag = ac_country_leader_flag
+			}
+		}
+	}
+	#recruit
+	ac_recruit_aino = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_aino_hired_global_flag
+			}
+		}
+		available = {
+			has_tech = computing_machine
+		}
+		complete_effect = {
+			set_global_flag = ac_aino_hired_global_flag
+			set_country_flag = ac_aino_hired_country_flag
+			Z99 = {
+				ac_aino = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_alisa_illinichina_amiella = {
+		fire_only_once = yes
+		cost = 50
+		on_map_mode = map_only
+		icon = generic_military
+		highlight_states = {
+			highlight_state_targets = {
+				state = 219
+			}
+		}
+		visible = {
+			NOT = {
+				has_global_flag = ac_alisa_illinichina_amiella_hired_global_flag
+			}
+			219 = {
+				ac_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		available = {
+			219 = {
+				ac_is_owned_by_root_or_puppet = yes
+			}
+		}
+		complete_effect = {
+			set_global_flag = ac_alisa_illinichina_amiella_hired_global_flag
+			set_country_flag = ac_alisa_illinichina_amiella_hired_country_flag
+			Z99 = {
+				ac_alisa_illinichina_amiella = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_anastasia_romanova = {
+		fire_only_once = yes
+		cost = 50
+		on_map_mode = map_only
+		icon = generic_military
+		highlight_states = {
+			highlight_state_targets = {
+				state = 195
+			}
+		}
+		visible = {
+			NOT = {
+				has_global_flag = ac_anastasia_romanova_hired_global_flag
+			}
+			195 = {
+				ac_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		available = {
+			195 = {
+				ac_is_owned_by_root_or_puppet = yes
+			}
+		}
+		complete_effect = {
+			set_global_flag = ac_anastasia_romanova_hired_global_flag
+			set_country_flag = ac_anastasia_romanova_hired_country_flag
+			Z99 = {
+				ac_anastasia_romanova = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_asuka_langley_souryuu = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 763
+			}
+		}
+		visible = {
+			NOT = {
+				has_global_flag = ac_asuka_langley_souryuu_hired_global_flag
+			}
+			763 = {
+				ac_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		available = {
+			763 = {
+				ac_is_owned_by_root_or_puppet = yes
+			}
+		}
+		complete_effect = {
+			set_global_flag = ac_asuka_langley_souryuu_hired_global_flag
+			set_country_flag = ac_asuka_langley_souryuu_hired_country_flag
+			Z99 = {
+				ac_asuka_langley_souryuu = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_eruza_guranhirute = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_eruza_guranhirute_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_eruza_guranhirute_hired_global_flag
+			set_country_flag = ac_eruza_guranhirute_hired_country_flag
+			Z99 = {
+				ac_eruza_guranhirute = {
+					set_nationality = ROOT
+				}
+			}
+			create_operative_leader = {
+				name = "Eruza Guranhirute"
+				GFX = GFX_portrait_ac_eruza_guranhirute
+				bypass_recruitment = no
+				available_to_spy_master = yes
+				female = yes
+				nationalities = {
+					ROOT
+				}
+				traits = {
+					operative_commando
+					operative_master_interrogator
+					operative_tough
+				}
+			}
+		}
+	}
+	ac_recruit_heine = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_heine_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_heine_hired_global_flag
+			set_country_flag = ac_heine_hired_country_flag
+			Z99 = {
+				ac_heine = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_homare_nao = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_homare_nao_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_homare_nao_hired_global_flag
+			set_country_flag = ac_homare_nao_hired_country_flag
+			Z99 = {
+				ac_homare_nao = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_i-410 = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 645
+			}
+		}
+		visible = {
+			NOT = {
+				has_global_flag = ac_i-410_hired_global_flag
+			}
+			645 = {
+				ac_is_controlled_by_root_or_puppet = yes
+			}
+		}
+		available = {
+			645 = {
+				ac_is_owned_by_root_or_puppet = yes
+			}
+		}
+		complete_effect = {
+			set_global_flag = ac_i-410_hired_global_flag
+			set_country_flag = ac_i-410_hired_country_flag
+			Z99 = {
+				ac_i-410 = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_kaname_chidori = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_kaname_chidori_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_kaname_chidori_hired_global_flag
+			set_country_flag = ac_kaname_chidori_hired_country_flag
+			Z99 = {
+				ac_kaname_chidori = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_kos-mos = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_kos-mos_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_kos-mos_hired_global_flag
+			set_country_flag = ac_kos-mos_hired_country_flag
+			Z99 = {
+				ac_kos-mos = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_lightning = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_lightning_hired_global_flag
+			}
+		}
+		available = {
+			num_divisions > 47
+		}
+		complete_effect = {
+			set_global_flag = ac_lightning_hired_global_flag
+			set_country_flag = ac_lightning_hired_country_flag
+			Z99 = {
+				ac_lightning = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_marblehead_azur_lane = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_marblehead_azur_lane_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_marblehead_azur_lane_hired_global_flag
+			set_country_flag = ac_marblehead_azur_lane_hired_country_flag
+			Z99 = {
+				ac_marblehead_azur_lane = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_meroune_lorelei = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_meroune_lorelei_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_meroune_lorelei_hired_global_flag
+			set_country_flag = ac_meroune_lorelei_hired_country_flag
+			Z99 = {
+				ac_meroune_lorelei = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_mikumo_guynemer = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_mikumo_guynemer_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_mikumo_guynemer_hired_global_flag
+			set_country_flag = ac_mikumo_guynemer_hired_country_flag
+			Z99 = {
+				ac_mikumo_guynemer = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_natasha_cioara = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_natasha_cioara_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_natasha_cioara_hired_global_flag
+			set_country_flag = ac_natasha_cioara_hired_country_flag
+			Z99 = {
+				ac_natasha_cioara = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_saki_rukino = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_saki_rukino_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_saki_rukino_hired_global_flag
+			set_country_flag = ac_saki_rukino_hired_country_flag
+			Z99 = {
+				ac_saki_rukino = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_shiki = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_shiki_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_shiki_hired_global_flag
+			set_country_flag = ac_shiki_hired_country_flag
+			Z99 = {
+				ac_shiki = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_souji_mitsuka = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_souji_mitsuka_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_souji_mitsuka_hired_global_flag
+			set_country_flag = ac_souji_mitsuka_hired_country_flag
+			Z99 = {
+				ac_souji_mitsuka = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_takao_arp = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_takao_arp_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_takao_arp_hired_global_flag
+			set_country_flag = ac_takao_arp_hired_country_flag
+			Z99 = {
+				ac_takao_arp = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	ac_recruit_takumi_musashino = {
+		fire_only_once = yes
+		cost = 50
+		icon = generic_military
+		visible = {
+			NOT = {
+				has_global_flag = ac_takumi_musashino_hired_global_flag
+			}
+		}
+		available = {
+		}
+		complete_effect = {
+			set_global_flag = ac_takumi_musashino_hired_global_flag
+			set_country_flag = ac_takumi_musashino_hired_country_flag
+			Z99 = {
+				ac_takumi_musashino = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+}
+
+political_actions = {
+	ac_retire_leader = {
+		visible = {
+			is_ai = no
+		}
+		available = {
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				democratic > 0.8
+			}
+			else_if = {
+				limit = {
+					has_government = communism
+				}
+				communism > 0.8
+			}
+			else_if = {
+				limit = {
+					has_government = fascism
+				}
+				fascism > 0.8
+			}
+			else = {
+				neutrality > 0.8
+			}
+			has_stability > 0.8
+		}
+		cost = 100
+		fire_only_once = no
+		complete_effect = {
+			retire_country_leader = yes
+			custom_effect_tooltip = ac_retire_leader_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						has_government = democratic
+					}
+					random_character = {
+						limit = {
+							NOT = {
+								has_character_flag = ac_country_leader_flag
+							}
+							has_character_flag = ac_char_flag
+						}
+						set_character_flag = ac_country_leader_flag
+						ROOT = {
+							add_country_leader_role = {
+								character = PREV
+								promote_leader = yes
+								country_leader = {
+									ideology = liberalism
+									expire = "1965.1.1.1"
+									# traits = {
+									# 	ac_trap
+									# }
+								}
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						has_government = communism
+					}
+					random_character = {
+						limit = {
+							NOT = {
+								has_character_flag = ac_country_leader_flag
+							}
+							has_character_flag = ac_char_flag
+						}
+						set_character_flag = ac_country_leader_flag
+						ROOT = {
+							add_country_leader_role = {
+								character = PREV
+								promote_leader = yes
+								country_leader = {
+									ideology = stalinism
+									expire = "1965.1.1.1"
+									# traits = {
+									# 	ac_trap
+									# }
+								}
+							}
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						has_government = fascism
+					}
+					random_character = {
+						limit = {
+							NOT = {
+								has_character_flag = ac_country_leader_flag
+							}
+							has_character_flag = ac_char_flag
+						}
+						set_character_flag = ac_country_leader_flag
+						ROOT = {
+							add_country_leader_role = {
+								character = PREV
+								promote_leader = yes
+								country_leader = {
+									ideology = fascism_ideology
+									expire = "1965.1.1.1"
+									# traits = {
+									# 	ac_trap
+									# }
+								}
+							}
+						}
+					}
+				}
+				else = {
+					random_character = {
+						limit = {
+							NOT = {
+								has_character_flag = ac_country_leader_flag
+							}
+							has_character_flag = ac_char_flag
+						}
+						set_character_flag = ac_country_leader_flag
+						ROOT = {
+							add_country_leader_role = {
+								character = PREV
+								promote_leader = yes
+								country_leader = {
+									ideology = despotism
+									expire = "1965.1.1.1"
+									# traits = {
+									# 	ac_trap
+									# }
+								}
+							}
+						}
+					}
+				}
+				# every_character = {
+				# 	limit = {
+				# 		is_country_leader = yes
+				# 		has_character_flag = ac_char_flag
+				# 	}
+				# 	add_country_leader_trait = ac_trap
+				# }
+				random_list = {
+					1 = {
+						add_country_leader_trait = ac_revolutionary
+					}
+					1 = {
+						add_country_leader_trait = ac_peoples_favorite
+					}
+					1 = {
+						add_country_leader_trait = ac_tyan_militarist
+					}
+					1 = {
+						add_country_leader_trait = ac_defender
+					}
+				}
+				random_list = {
+					1 = {
+						add_country_leader_trait = ac_patron_of_intelligence
+					}
+					1 = {
+						add_country_leader_trait = ac_patron_of_the_military_industrial_complex
+					}
+					1 = {
+						add_country_leader_trait = ac_patron_of_industry
+					}
+					1 = {
+						add_country_leader_trait = ac_patron_of_science
+					}
+				}
+				random_list = {
+					1 = {
+						add_country_leader_trait = ac_idol
+					}
+					1 = {
+						add_country_leader_trait = ac_dictator
+					}
+					1 = {
+						add_country_leader_trait = ac_tsundere
+					}
+					1 = {
+						add_country_leader_trait = ac_empress
+					}
+				}
+			}
+		}
+	}
+}
+
+ac_subjects_category = {
+	ac_change_country_leader = {
+		cost = 50
+		visible = {
+		}
+		available = {
+			FROM = {
+				is_puppet = yes
+			}
+		}
+		target_array = subjects
+		target_trigger = {
+			FROM = {
+				NOT = {
+					has_country_leader_with_trait = ac_governor-general
+				}
+			}
+		}
+		complete_effect = {
+			FROM = {
+				custom_effect_tooltip = ac_change_country_leader_tt
+				hidden_effect = {
+					ac_change_country_leader_effect = yes
+				}
+			}
+		}
+	}
+}

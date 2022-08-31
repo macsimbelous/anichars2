@@ -1,0 +1,12 @@
+ac_anime_characters_category = {
+	priority = 20
+	visible = {
+		is_ai = no
+	}
+}
+ac_subjects_category = {
+	priority = 10
+	visible = {
+		is_ai = no
+	}
+}

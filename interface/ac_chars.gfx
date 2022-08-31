@@ -1,0 +1,162 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_ac_aino"
+		texturefile = "gfx/leaders/ac/aino_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_aino"
+		texturefile = "gfx/leaders/ac/aino.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_alisa_illinichina_amiella"
+		texturefile = "gfx/leaders/ac/alisa_illinichina_amiella_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_alisa_illinichina_amiella"
+		texturefile = "gfx/leaders/ac/alisa_illinichina_amiella.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_anastasia_romanova"
+		texturefile = "gfx/leaders/ac/anastasia_romanova_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_anastasia_romanova"
+		texturefile = "gfx/leaders/ac/anastasia_romanova.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_asuka_langley_souryuu"
+		texturefile = "gfx/leaders/ac/asuka_langley_souryuu_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_asuka_langley_souryuu"
+		texturefile = "gfx/leaders/ac/asuka_langley_souryuu.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_eruza_guranhirute"
+		texturefile = "gfx/leaders/ac/eruza_guranhirute_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_eruza_guranhirute"
+		texturefile = "gfx/leaders/ac/eruza_guranhirute.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_heine"
+		texturefile = "gfx/leaders/ac/heine_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_heine"
+		texturefile = "gfx/leaders/ac/heine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_homare_nao"
+		texturefile = "gfx/leaders/ac/homare_nao_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_homare_nao"
+		texturefile = "gfx/leaders/ac/homare_nao.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_i-410"
+		texturefile = "gfx/leaders/ac/i-410_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_i-410"
+		texturefile = "gfx/leaders/ac/i-410.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kaname_chidori"
+		texturefile = "gfx/leaders/ac/kaname_chidori_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kaname_chidori"
+		texturefile = "gfx/leaders/ac/kaname_chidori.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_kos-mos"
+		texturefile = "gfx/leaders/ac/kos-mos_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_kos-mos"
+		texturefile = "gfx/leaders/ac/kos-mos.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_lightning"
+		texturefile = "gfx/leaders/ac/lightning_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_lightning"
+		texturefile = "gfx/leaders/ac/lightning.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_marblehead_azur_lane"
+		texturefile = "gfx/leaders/ac/marblehead_azur_lane_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_marblehead_azur_lane"
+		texturefile = "gfx/leaders/ac/marblehead_azur_lane.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_meroune_lorelei"
+		texturefile = "gfx/leaders/ac/meroune_lorelei_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_meroune_lorelei"
+		texturefile = "gfx/leaders/ac/meroune_lorelei.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_mikumo_guynemer"
+		texturefile = "gfx/leaders/ac/mikumo_guynemer_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_mikumo_guynemer"
+		texturefile = "gfx/leaders/ac/mikumo_guynemer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_natasha_cioara"
+		texturefile = "gfx/leaders/ac/natasha_cioara_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_natasha_cioara"
+		texturefile = "gfx/leaders/ac/natasha_cioara.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_saki_rukino"
+		texturefile = "gfx/leaders/ac/saki_rukino_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_saki_rukino"
+		texturefile = "gfx/leaders/ac/saki_rukino.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_shiki"
+		texturefile = "gfx/leaders/ac/shiki_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_shiki"
+		texturefile = "gfx/leaders/ac/shiki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_souji_mitsuka"
+		texturefile = "gfx/leaders/ac/souji_mitsuka_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_souji_mitsuka"
+		texturefile = "gfx/leaders/ac/souji_mitsuka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_takao_arp"
+		texturefile = "gfx/leaders/ac/takao_arp_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_takao_arp"
+		texturefile = "gfx/leaders/ac/takao_arp.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ac_takumi_musashino"
+		texturefile = "gfx/leaders/ac/takumi_musashino_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ac_takumi_musashino"
+		texturefile = "gfx/leaders/ac/takumi_musashino.dds"
+	}
+}

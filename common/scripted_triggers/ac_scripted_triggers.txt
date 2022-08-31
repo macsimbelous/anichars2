@@ -1,0 +1,23 @@
+ac_is_controlled_by_root_or_puppet = {
+	custom_trigger_tooltip = {
+		tooltip = ac_is_controlled_by_root_or_puppet_tt
+		CONTROLLER = {
+			OR = {
+				tag = ROOT
+				is_puppet_of = ROOT
+			}
+		}
+	}
+}
+ac_is_owned_by_root_or_puppet = {
+	custom_trigger_tooltip = {
+		tooltip = ac_is_controlled_by_root_or_puppet_tt
+		OWNER = {
+			OR = {
+				tag = ROOT
+				is_puppet_of = ROOT
+			}
+		}
+	}
+}
+

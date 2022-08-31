@@ -1,0 +1,473 @@
+characters = {
+	ac_aino = {
+		name = ac_aino
+		portraits = {
+			army = {
+				small = GFX_idea_ac_aino
+				large = GFX_portrait_ac_aino
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				trickster
+			}
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ac_alisa_illinichina_amiella = {
+		name = ac_alisa_illinichina_amiella
+		portraits = {
+			army = {
+				small = GFX_idea_ac_alisa_illinichina_amiella
+				large = GFX_portrait_ac_alisa_illinichina_amiella
+			}
+			civilian = {
+				large = GFX_portrait_ac_alisa_illinichina_amiella
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				commando
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	ac_anastasia_romanova = {
+		name = ac_anastasia_romanova
+		portraits = {
+			army = {
+				small = GFX_idea_ac_anastasia_romanova
+				large = GFX_portrait_ac_anastasia_romanova
+			}
+			civilian = {
+				large = GFX_portrait_ac_anastasia_romanova
+			}
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_anastasia_romanova
+			cost = 100
+			available = {
+				not = {
+					has_country_leader = {
+						character = ac_anastasia_romanova
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				ac_staunch_monarchist
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				naval_invader
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	ac_asuka_langley_souryuu = {
+		name = ac_asuka_langley_souryuu
+		portraits = {
+			army = {
+				large = GFX_portrait_ac_asuka_langley_souryuu
+				small = GFX_idea_ac_asuka_langley_souryuu
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				panzer_leader
+				aggressive_assaulter
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ac_eruza_guranhirute = {
+		name = ac_eruza_guranhirute
+		portraits = {
+			army = {
+				small = GFX_idea_ac_eruza_guranhirute
+				large = GFX_portrait_ac_eruza_guranhirute
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_eruza_guranhirute
+			cost = 100
+			traits = {
+				ac_princess_of_terror
+			}
+		}
+	}
+	ac_heine = {
+		name = ac_heine
+		portraits = {
+			army = {
+				small = GFX_idea_ac_heine
+				large = GFX_portrait_ac_heine
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				cavalry_leader
+				skilled_staffer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	ac_homare_nao = {
+		name = ac_homare_nao
+		portraits = {
+			army = {
+				small = GFX_idea_ac_homare_nao
+				large = GFX_portrait_ac_homare_nao
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			traits = {
+				ac_exp_trait
+				infantry_leader
+				skilled_staffer
+				inspirational_leader
+				media_personality
+			}
+		}
+	}
+	ac_i-410 = {
+		name = ac_i-410
+		portraits = {
+			army = {
+				small = GFX_idea_ac_i-410
+				large = GFX_portrait_ac_i-410
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+				seawolf
+				silent_hunter
+				torpedo_expert
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 5
+			coordination_skill = 4
+		}
+		advisor = {
+			slot = theorist
+			idea_token = ac_i-410
+			ledger = navy
+			cost = 100
+			traits = {
+				submarine_specialist
+			}
+		}
+	}
+	ac_kaname_chidori = {
+		name = ac_kaname_chidori
+		portraits = {
+			army = {
+				small = GFX_idea_ac_kaname_chidori
+				large = GFX_portrait_ac_kaname_chidori
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				commando
+				infantry_leader
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ac_kos-mos = {
+		name = ac_kos-mos
+		portraits = {
+			army = {
+				small = GFX_idea_ac_kos-mos
+				large = GFX_portrait_ac_kos-mos
+			}
+		}
+		field_marshal = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+				bearer_of_artillery
+				defensive_doctrine
+				unyielding_defender
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	ac_lightning = {
+		name = ac_lightning
+		portraits = {
+			army = {
+				small = GFX_idea_ac_lightning
+				large = GFX_portrait_ac_lightning
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = ac_lightning
+			cost = 100
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+		field_marshal = {
+			traits = {
+				ac_exp_trait
+				offensive_doctrine
+				war_hero
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	ac_marblehead_azur_lane = {
+		name = ac_marblehead_azur_lane
+		portraits = {
+			navy = {
+				small = GFX_idea_ac_marblehead_azur_lane
+				large = GFX_portrait_ac_marblehead_azur_lane
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+				caustic_personality
+				cruiser_captain
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	ac_meroune_lorelei = {
+		name = ac_meroune_lorelei
+		portraits = {
+			navy = {
+				small = GFX_idea_ac_meroune_lorelei
+				large = GFX_portrait_ac_meroune_lorelei
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+				blue_water_expert
+				seawolf
+				silent_hunter
+				torpedo_expert
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+		}
+	}
+	ac_mikumo_guynemer = {
+		name = ac_mikumo_guynemer
+		portraits = {
+			army = {
+				small = GFX_idea_ac_mikumo_guynemer
+				large = GFX_portrait_ac_mikumo_guynemer
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_mikumo_guynemer
+			cost = 100
+			traits = {
+				ac_propaganda_expert
+			}
+		}
+	}
+	ac_natasha_cioara = {
+		name = ac_natasha_cioara
+		portraits = {
+			army = {
+				small = GFX_idea_ac_natasha_cioara
+				large = GFX_portrait_ac_natasha_cioara
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				infantry_leader
+				winter_specialist
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ac_saki_rukino = {
+		name = ac_saki_rukino
+		portraits = {
+			army = {
+				small = GFX_idea_ac_saki_rukino
+				large = GFX_portrait_ac_saki_rukino
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				panzer_leader
+				trickster
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	ac_shiki = {
+		name = ac_shiki
+		portraits = {
+			army = {
+				small = GFX_idea_ac_shiki
+				large = GFX_portrait_ac_shiki
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = ac_shiki
+			cost = 100
+			traits = {
+				ac_girl_scientist
+			}
+		}
+	}
+	ac_souji_mitsuka = {
+		name = ac_souji_mitsuka
+		portraits = {
+			army = {
+				small = GFX_idea_ac_souji_mitsuka
+				large = GFX_portrait_ac_souji_mitsuka
+			}
+		}
+		corps_commander = {
+			traits = {
+				ac_exp_trait
+				panzer_leader
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	ac_takao_arp = {
+		name = ac_takao_arp
+		portraits = {
+			army = {
+				small = GFX_idea_ac_takao_arp
+				large = GFX_portrait_ac_takao_arp
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = ac_takao_arp
+			cost = 100
+			traits = {
+				navy_anti_submarine_1
+			}
+		}
+		navy_leader = {
+			traits = {
+				ac_exp_navy_trait
+				cruiser_captain
+				big_guns_expert
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 5
+			maneuvering_skill = 5
+			coordination_skill = 5
+			legacy_id = -1
+		}
+	}
+	ac_takumi_musashino = {
+		name = ac_takumi_musashino
+		portraits = {
+			army = {
+				small = GFX_idea_ac_takumi_musashino
+				large = GFX_portrait_ac_takumi_musashino
+			}
+			civilian = {
+				large = GFX_portrait_ac_takumi_musashino
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ac_takumi_musashino
+			cost = 100
+			available = {
+				not = {
+					has_country_leader = {
+						character = ac_takumi_musashino
+						ruling_only = yes
+					}
+				}
+			}
+			traits = {
+				ac_communist_revolutionary
+			}
+		}
+	}
+}
