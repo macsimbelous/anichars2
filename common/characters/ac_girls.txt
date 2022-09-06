@@ -136,11 +136,11 @@ characters = {
 				cavalry_leader
 				skilled_staffer
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
 		}
 	}
 	ac_homare_nao = {
@@ -330,6 +330,12 @@ characters = {
 			traits = {
 				ac_propaganda_expert
 			}
+			available = {
+				NOT = {
+					has_government = fascism
+				}
+				fascism < 5
+			}
 		}
 	}
 	ac_natasha_cioara = {
@@ -434,12 +440,11 @@ characters = {
 				cruiser_captain
 				big_guns_expert
 			}
-			skill = 5
-			attack_skill = 6
-			defense_skill = 5
-			maneuvering_skill = 5
-			coordination_skill = 5
-			legacy_id = -1
+			skill = 3
+			attack_skill = 5
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
 		}
 	}
 	ac_takumi_musashino = {

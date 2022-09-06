@@ -225,9 +225,6 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
-			219 = {
-				ac_is_owned_by_root_or_puppet = yes
-			}
 		}
 		complete_effect = {
 			set_global_flag = ac_alisa_illinichina_amiella_hired_global_flag
@@ -258,9 +255,6 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
-			195 = {
-				ac_is_owned_by_root_or_puppet = yes
-			}
 		}
 		complete_effect = {
 			set_global_flag = ac_anastasia_romanova_hired_global_flag
@@ -291,9 +285,6 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
-			763 = {
-				ac_is_owned_by_root_or_puppet = yes
-			}
 		}
 		complete_effect = {
 			set_global_flag = ac_asuka_langley_souryuu_hired_global_flag
@@ -315,6 +306,7 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
+			has_intelligence_agency = yes
 		}
 		complete_effect = {
 			set_global_flag = ac_eruza_guranhirute_hired_global_flag
@@ -345,9 +337,18 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 50
 		icon = generic_military
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 637
+			}
+		}
 		visible = {
 			NOT = {
 				has_global_flag = ac_heine_hired_global_flag
+			}
+			637 = {
+				ac_is_controlled_by_root_or_puppet = yes
 			}
 		}
 		available = {
@@ -366,9 +367,18 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 50
 		icon = generic_military
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 537
+			}
+		}
 		visible = {
 			NOT = {
 				has_global_flag = ac_homare_nao_hired_global_flag
+			}
+			537 = {
+				ac_is_controlled_by_root_or_puppet = yes
 			}
 		}
 		available = {
@@ -402,9 +412,7 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
-			645 = {
-				ac_is_owned_by_root_or_puppet = yes
-			}
+			has_tech = computing_machine
 		}
 		complete_effect = {
 			set_global_flag = ac_i-410_hired_global_flag
@@ -420,9 +428,18 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 50
 		icon = generic_military
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 532
+			}
+		}
 		visible = {
 			NOT = {
 				has_global_flag = ac_kaname_chidori_hired_global_flag
+			}
+			532 = {
+				ac_is_controlled_by_root_or_puppet = yes
 			}
 		}
 		available = {
@@ -441,12 +458,22 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 50
 		icon = generic_military
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 217
+			}
+		}
 		visible = {
 			NOT = {
 				has_global_flag = ac_kos-mos_hired_global_flag
 			}
+			217 = {
+				ac_is_controlled_by_root_or_puppet = yes
+			}
 		}
 		available = {
+			has_tech = computing_machine
 		}
 		complete_effect = {
 			set_global_flag = ac_kos-mos_hired_global_flag
@@ -484,9 +511,18 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 50
 		icon = generic_military
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 366
+			}
+		}
 		visible = {
 			NOT = {
 				has_global_flag = ac_marblehead_azur_lane_hired_global_flag
+			}
+			366 = {
+				ac_is_controlled_by_root_or_puppet = yes
 			}
 		}
 		available = {
@@ -505,9 +541,18 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 50
 		icon = generic_military
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 698
+			}
+		}
 		visible = {
 			NOT = {
 				has_global_flag = ac_meroune_lorelei_hired_global_flag
+			}
+			698 = {
+				ac_is_controlled_by_root_or_puppet = yes
 			}
 		}
 		available = {
@@ -532,6 +577,10 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
+			NOT = {
+				has_government = fascism
+			}
+			fascism < 5
 		}
 		complete_effect = {
 			set_global_flag = ac_mikumo_guynemer_hired_global_flag
@@ -547,9 +596,18 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 50
 		icon = generic_military
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 566
+			}
+		}
 		visible = {
 			NOT = {
 				has_global_flag = ac_natasha_cioara_hired_global_flag
+			}
+			566 = {
+				ac_is_controlled_by_root_or_puppet = yes
 			}
 		}
 		available = {
@@ -568,9 +626,18 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 50
 		icon = generic_military
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 526
+			}
+		}
 		visible = {
 			NOT = {
 				has_global_flag = ac_saki_rukino_hired_global_flag
+			}
+			526 = {
+				ac_is_controlled_by_root_or_puppet = yes
 			}
 		}
 		available = {
@@ -595,6 +662,7 @@ ac_anime_characters_category = {
 			}
 		}
 		available = {
+			amount_research_slots > 3
 		}
 		complete_effect = {
 			set_global_flag = ac_shiki_hired_global_flag
@@ -610,9 +678,18 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 50
 		icon = generic_military
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 531
+			}
+		}
 		visible = {
 			NOT = {
 				has_global_flag = ac_souji_mitsuka_hired_global_flag
+			}
+			531 = {
+				ac_is_controlled_by_root_or_puppet = yes
 			}
 		}
 		available = {
@@ -631,9 +708,18 @@ ac_anime_characters_category = {
 		fire_only_once = yes
 		cost = 50
 		icon = generic_military
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 408
+			}
+		}
 		visible = {
 			NOT = {
 				has_global_flag = ac_takao_arp_hired_global_flag
+			}
+			408 = {
+				ac_is_controlled_by_root_or_puppet = yes
 			}
 		}
 		available = {
