@@ -580,7 +580,7 @@ ac_anime_characters_category = {
 			NOT = {
 				has_government = fascism
 			}
-			fascism < 5
+			fascism < 0.05
 		}
 		complete_effect = {
 			set_global_flag = ac_mikumo_guynemer_hired_global_flag

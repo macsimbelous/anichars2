@@ -334,7 +334,7 @@ characters = {
 				NOT = {
 					has_government = fascism
 				}
-				fascism < 5
+				fascism < 0.05
 			}
 		}
 	}
